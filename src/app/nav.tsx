@@ -15,6 +15,12 @@ export default function Nav() {
    return (
       <nav className={'flex items-center w-screen h-14 fixed bg-white text-black duration-700 ease-in-out ' + (scroll ? 'pr-0 pl-[60vw]' : 'px-[33vw]')}>
          <Link
+            href='/'
+            className="m-16"
+         >
+            home
+         </Link>
+         <Link
             href='/projects'
             className="m-16"
          >
