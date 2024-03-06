@@ -2,7 +2,9 @@
 import Image from "next/image";
 import Nav from './nav'
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Home() {
 
@@ -40,16 +42,22 @@ export default function Home() {
         id="bottom"
       >
         <section
-          className="w-1/2 m-24 flex flex-col justify-center"
+          className="w-3/4 m-24 flex flex-col justify-center"
         >
           <p
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Hi! I'm Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into what I've been up to.
           </p>
           <div
-            className="mt-8"
+            className="mt-8 flex flex-row"
           >
-            <FaGithub />
+            <a className='pr-2' href="https://github.com/snootfef">
+              <FaGithub />
+            </a>
+            <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/'>
+              <FaLinkedin />
+            </a>
+            <FaExternalLinkAlt />
           </div>
         </section>
         <div

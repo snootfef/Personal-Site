@@ -3,7 +3,7 @@ import ProjectProps from "../Interfaces/Interfaces"
 export default function projectIcon({ project }: { project: ProjectProps }) {
    return (
       <main
-         className="flex flex-col items-center"
+         className="hover:scale-105 flex flex-col items-center"
       >
          <section
             className="flex flex-col items-center justify-center rounded-full w-[12.5vw] h-[65vh] m-5"
