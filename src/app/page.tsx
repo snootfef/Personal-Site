@@ -51,10 +51,10 @@ export default function Home() {
           <div
             className="mt-8 flex flex-row"
           >
-            <a className='pr-2' href="https://github.com/snootfef">
+            <a className='pr-2' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a>
-            <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/'>
+            <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
             <FaExternalLinkAlt />
