@@ -3,7 +3,7 @@ import Nav from '../nav'
 import { useState } from "react";
 import projects from '../data/projects'
 import ProjectIcon from './ProjectIcon';
-import ProjectProps from '../Interfaces/Interfaces';
+import { ProjectProps } from '../Interfaces/Interfaces';
 
 export default function Page() {
    const [flip, setFlip] = useState(-1);

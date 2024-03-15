@@ -1,4 +1,4 @@
-import ProjectProps from "../Interfaces/Interfaces";
+import { ProjectProps } from "../Interfaces/Interfaces";
 
 const projects: Array<ProjectProps> = [
    { name: 'GenHeat', description: 'lorem ipsun ryan zhu', img: 'test.jpg' },

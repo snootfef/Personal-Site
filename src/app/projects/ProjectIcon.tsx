@@ -1,5 +1,4 @@
-import ProjectProps from "../Interfaces/Interfaces"
-import { useState } from "react";
+import { ProjectProps } from "../Interfaces/Interfaces"
 
 export default function projectIcon({ project, index, flip, setFlip }: { project: ProjectProps, index: number, flip: number, setFlip: Function }) {
    return (
