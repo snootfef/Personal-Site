@@ -12,7 +12,7 @@ const designArtwork: Array<DesignProps> = [
 ];
 
 const designGraphics: Array<DesignProps> = [
-   { name: 'Artworks', description: 'lorem ipsun ryan zhu', img: 'test.jpg' },
+   { name: 'chmeese', description: 'lorem ipsun ryan zhu', img: 'test.jpg' },
    { name: 'delingu.com', description: 'lorem ipsun ryan zhu', img: 'test1.jpg' },
    { name: 'GenHeat', description: 'lorem ipsun ryan zhu', img: 'test1.jpg' },
    { name: 'GenHeat', description: 'lorem ipsun ryan zhu', img: 'test1.jpg' },

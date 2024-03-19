@@ -7,12 +7,14 @@ import { designGraphics } from '../data/designs'
 import { DesignProps } from '../Interfaces/Interfaces';
 
 export default function Page() {
-   const [sidebar, setSidebar] = useState(0);
+   const [flip, setFlip] = useState(-1);
+   const [sidebar, setSidebar] = useState(designArtwork);
    const sidebarNames = ["Artworks", "Graphics"];
+   const designArray = [designArtwork, designGraphics];
 
    return (
       <main
-         className='flex flex-col items-center min-w-screen h-screen overflow-auto'
+         className='flex flex-col items-center min-w-screen h-screen'
       >
          <Nav />
          <section
@@ -22,22 +24,27 @@ export default function Page() {
                id="sidebar"
                className='flex flex-col w-[25vw] items-center justify-center'
             >
-               {sidebarNames.map((name: string) =>
+               {sidebarNames.map((name: string, index) =>
                   <p
-                     className='p-2'
+                     className='p-2 cursor-pointer'
+                     onClick={() => setSidebar(designArray[index])}
                   >
                      {name}
                   </p>
                )}
             </section>
             <div
-               className='flex flex-row w-[75vw] overflow-x-scroll'
+               className='w-[75vw] h-full'
             >
-               {designArtwork.map((design: DesignProps) =>
-                  <DesignIcon
-                     design={design}>
-                  </DesignIcon>
-               )}
+               <div
+                  className='w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
+               >
+                  {sidebar.map((design: DesignProps, index) =>
+                     <DesignIcon
+                        design={design} index={index} flip={flip} setFlip={setFlip}>
+                     </DesignIcon>
+                  )}
+               </div>
             </div>
          </section>
       </main>
