@@ -48,13 +48,45 @@ export default function Page() {
          </section>
          <section
             id='bottom'
-            className='flex h-screen'
+            className='h-screen w-full relative'
          >
             <h2
                className='mt-24 ml-24'
             >
                i love...
             </h2>
+            <section
+               className='z-40 flex flex-row w-full h-[90vh] relative bg-purple-400'
+            >
+               <div
+                  className='my-16 ml-12 mr-4 rounded-full w-[18vw] h-[60vh] bg-green-400'
+               ></div>
+               <div
+                  className='mt-[16rem] rounded-full w-[15vw] h-[45vh] bg-green-400'
+               ></div>
+               <div
+                  className='mt-56 ml-[22rem] rounded-full w-[20vw] h-[72vh] bg-green-400'
+               ></div>
+               <div
+                  className='ml-12 mt-[30rem] rounded-full w-[16vw] h-[60vh] bg-green-400'
+               ></div>
+            </section>
+            <section
+               className='z-30 flex flex-row w-full h-[90vh] relative bg-purple-200'
+            >
+               <div
+                  className='ml-[8rem] mt-[7rem] rounded-full w-[16vw] h-[55vh] bg-green-400'
+               ></div>
+               <div
+                  className='ml-12 mt-[2rem] rounded-full w-[20vw] h-[69vh] bg-green-400'
+               ></div>
+               <div
+                  className='ml-32 mt-[18rem] rounded-full w-[20vw] h-[70vh] bg-green-400'
+               ></div>
+               <div
+                  className='ml-8 mt-[15rem] rounded-full w-[18vw] h-[45vh] bg-green-400'
+               ></div>
+            </section>
          </section>
       </main >
    );
