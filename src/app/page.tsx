@@ -1,5 +1,4 @@
 'use client';
-import Image from "next/image";
 import Nav from './nav'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
