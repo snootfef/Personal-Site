@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react';
 import Nav from '../nav'
+import Footer from '../footer';
 import DesignIcon from './DesignIcon';
 import { designArtwork } from '../data/designs'
 import { designGraphics } from '../data/designs'
@@ -14,11 +15,11 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col items-center min-w-screen h-screen'
+         className='flex flex-col items-center min-w-screen overflow-y-scroll'
       >
          <Nav />
          <section
-            className='flex flex-row items-center justify-center h-full w-screen mt-16'
+            className='flex flex-row items-center justify-center h-screen w-screen mt-8'
          >
             <section
                id="sidebar"
@@ -47,6 +48,7 @@ export default function Page() {
                </div>
             </div>
          </section>
+         <Footer />
       </main>
    );
 

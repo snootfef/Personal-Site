@@ -1,5 +1,6 @@
 'use client';
 import Nav from './nav'
+import Footer from './footer';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
@@ -65,6 +66,7 @@ export default function Home() {
           asdfasdf
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

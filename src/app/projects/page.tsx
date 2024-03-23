@@ -1,5 +1,6 @@
 "use client";
 import Nav from '../nav'
+import Footer from '../footer';
 import { useState } from "react";
 import projects from '../data/projects'
 import ProjectIcon from './ProjectIcon';
@@ -30,6 +31,7 @@ export default function Page() {
          >
             {projects.map((project: ProjectProps, index) => <ProjectIcon project={project} index={index} flip={flip} setFlip={setFlip}></ProjectIcon>)}
          </section>
+         <Footer />
       </main>
    )
 }
