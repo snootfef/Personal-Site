@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Footer() {
    return (
       <footer
-         className="w-screen h-32 p-10 flex flex-row justify-around bg-green-100"
+         className="w-screen h-32 p-10 flex flex-row justify-around bg-moss text-rice"
       >
          <h2
             className="font-xl"

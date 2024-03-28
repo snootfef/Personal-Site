@@ -16,7 +16,7 @@ export default function Home() {
     <main className="flex flex-col items-center relative overflow-x-hidden overflow-y-auto no-scrollbar">
       <Nav />
       <section
-        className="flex h-screen w-screen flex-col items-center justify-center bg-black text-white"
+        className="flex h-screen w-screen flex-col items-center justify-center bg-rice text-rock"
       >
         <section
           className="flex flex-col items-center justify-center h-full pt-8"
@@ -38,7 +38,7 @@ export default function Home() {
         </section>
       </section>
       <section
-        className="flex h-screen w-screen bg-white"
+        className="flex h-screen w-screen bg-rice text-moss"
         id="bottom"
       >
         <section

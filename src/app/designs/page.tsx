@@ -15,7 +15,7 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col items-center min-w-screen overflow-y-scroll'
+         className='flex flex-col items-center min-w-screen overflow-y-scroll bg-rice text-moss'
       >
          <Nav />
          <section
@@ -33,6 +33,11 @@ export default function Page() {
                      {name}
                   </p>
                )}
+               <p
+                  className='text-xs italic'
+               >
+                  click to learn more!
+               </p>
             </section>
             <div
                className='w-[75vw] h-full'

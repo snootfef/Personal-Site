@@ -17,17 +17,25 @@ export default function projectIcon({ project, index, flip, setFlip }: { project
             </section>
             <section
                onClick={() => setFlip(-1)}
-               className="flex items-center justify-center rounded-full back bg-purple-300 w-full h-full"
+               className="flex flex-col items-center justify-center rounded-full back bg-moss text-rice w-full h-full"
             >
                <p
-                  className="text-xs"
+                  className="m-3 italic"
+               >
+                  {project.tools}
+               </p>
+               <div
+                  className="h-[0.09rem] w-36 bg-rice"
+               />
+               <p
+                  className="text-s m-3"
                >
                   {project.description}
                </p>
             </section>
          </div>
          <section
-            className="flex flex-col justify-center items-center w-24 h-12"
+            className="flex flex-col justify-center items-center w-24 h-12 text-moss"
          >
             <h2
                className="text-lg"

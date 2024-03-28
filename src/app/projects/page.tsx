@@ -11,7 +11,7 @@ export default function Page() {
 
    return (
       <main
-         className="flex flex-col items-center w-screen min-h-screen overflow-auto relative"
+         className="flex flex-col items-center w-screen min-h-screen overflow-auto relative bg-rice"
       >
          <Nav />
          <section

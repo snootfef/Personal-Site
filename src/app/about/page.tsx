@@ -11,11 +11,11 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col min-w-screen overflow-y-scroll'
+         className='flex flex-col min-w-screen overflow-y-scroll bg-rice'
       >
          <Nav />
          <section
-            className='flex flex-col items-center justify-center h-screen relative'
+            className='flex flex-col items-center justify-center h-screen relative '
          >
             <section
                className='flex flex-row items-center justify-center'
@@ -57,10 +57,10 @@ export default function Page() {
                i love...
             </h2>
             <section
-               className='z-40 flex flex-row w-full h-[90vh] relative bg-purple-400'
+               className='z-40 flex flex-row w-full h-[90vh] relative bg-rice'
             >
                <div
-                  className='my-16 ml-12 mr-4 rounded-full w-[18vw] h-[60vh] bg-green-400'
+                  className='my-16 ml-12 mr-4 rounded-full w-[18vw] h-[60vh] bg-moss'
                />
                <div
                   className='mt-[16rem] rounded-full w-[15vw] h-[45vh] bg-green-400'
@@ -73,7 +73,7 @@ export default function Page() {
                />
             </section>
             <section
-               className='z-30 flex flex-row w-full h-[110vh] relative bg-purple-200'
+               className='z-30 flex flex-row w-full h-[110vh] relative bg-rice'
             >
                <div
                   className='ml-[8rem] mt-[7rem] rounded-full w-[16vw] h-[55vh] bg-green-400'

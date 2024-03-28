@@ -20,10 +20,18 @@ export default function designIcon({ design, index, flip, setFlip }: { design: D
             </section>
             <section
                onClick={() => setFlip(-1)}
-               className="flex items-center justify-center rounded-full back bg-purple-300 w-full h-full"
+               className="flex flex-col items-center justify-center rounded-full back bg-moss text-rice w-full h-full"
             >
                <p
-                  className="text-xs"
+                  className="m-3 italic"
+               >
+                  {design.tools}
+               </p>
+               <div
+                  className="h-[0.09rem] w-36 bg-rice"
+               />
+               <p
+                  className="text-s m-3"
                >
                   aaaaaa
                </p>

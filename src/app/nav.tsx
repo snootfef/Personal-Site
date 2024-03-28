@@ -14,34 +14,41 @@ export default function Nav() {
 
    return (
       <nav
-         className={'z-50 flex items-center w-screen h-14 fixed bg-white text-black duration-700 ease-in-out ' + (scroll ? 'pr-0 pl-[60vw]' : 'px-[33vw]')}
+         className='z-50 flex flex-col justify-center items-center w-screen h-[4.1rem] fixed bg-rice text-moss'
       >
-         <Link
-            href='/'
-            className="m-16"
+         <div
+            className={"flex flex-row justify-center items-center my-5 duration-700 ease-in-out " + (scroll ? 'pr-0 pl-[60vw]' : 'px-[33vw]')}
          >
-            home
-         </Link>
-         <Link
-            href='/projects'
-            className="m-16"
-         >
-            projects
-         </Link>
-         <p>/</p>
-         <Link
-            href='/designs'
-            className="m-16"
-         >
-            designs
-         </Link>
-         <p>/</p>
-         <Link
-            href='/about'
-            className="m-16"
-         >
-            about
-         </Link>
+            <Link
+               href='/'
+               className="mx-16"
+            >
+               home
+            </Link>
+            <Link
+               href='/projects'
+               className="mx-16"
+            >
+               projects
+            </Link>
+            <p>/</p>
+            <Link
+               href='/designs'
+               className="mx-16"
+            >
+               designs
+            </Link>
+            <p>/</p>
+            <Link
+               href='/about'
+               className="mx-16"
+            >
+               about
+            </Link>
+         </div>
+         <div
+            className="bg-moss h-[0.09rem] w-[90vw]"
+         />
       </nav>
    )
 }
