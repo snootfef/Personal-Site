@@ -42,7 +42,7 @@ export default function Home() {
         id="bottom"
       >
         <section
-          className="w-3/4 m-24 flex flex-col justify-center"
+          className="w-1/2 m-20 flex flex-col justify-center"
         >
           <p
           >
@@ -61,9 +61,20 @@ export default function Home() {
           </div>
         </section>
         <div
-          className="w-1/2 m-24"
+          className="relative w-1/2 mt-16"
         >
-          asdfasdf
+          <img
+            className='absolute top-16 w-[22vw] hover:scale-110 ease-in-out'
+            src='/assets/orange.png'
+          />
+          <img
+            className='absolute top-[32rem] left-[16rem] w-[7vw] hover:scale-110'
+            src='/assets/blueberry1.png'
+          />
+          <img
+            className='absolute top-[24rem] left-[28rem] w-[7vw] hover:scale-110'
+            src='/assets/blueberry2.png'
+          />
         </div>
       </section>
       <Footer />

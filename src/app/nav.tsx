@@ -46,9 +46,6 @@ export default function Nav() {
                about
             </Link>
          </div>
-         <div
-            className="bg-moss h-[0.09rem] w-[90vw]"
-         />
       </nav>
    )
 }
