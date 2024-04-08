@@ -2,6 +2,7 @@
 import Link from "next/link"
 import useScrollPosition from "./useScrollPosition";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Nav() {
    const scrollPosition = useScrollPosition();
@@ -14,16 +15,22 @@ export default function Nav() {
 
    return (
       <nav
-         className='z-50 flex flex-col justify-center items-center w-screen h-[4.1rem] fixed bg-rice text-moss'
+         className='z-50 flex flex-col justify-center items-center w-screen h-[4.8rem] fixed bg-rice text-moss'
       >
          <div
-            className={"flex flex-row justify-center items-center my-5 duration-700 ease-in-out " + (scroll ? 'pr-0 pl-[60vw]' : 'px-[33vw]')}
+            className={"relative flex flex-row justify-center items-center my-5 duration-700 ease-in-out " + (scroll ? 'pl-0 pr-[43vw]' : 'px-[33vw]')}
          >
             <Link
                href='/'
-               className="mx-16"
+               className="absolute w-24 -left-32"
             >
-               home
+               <Image
+                  src="/assets/logoSmall.png"
+                  className={"h-full w-full ease-in-out duration-200 " + (scroll ? 'opacity-100' : 'opacity-0')}
+                  alt=""
+                  width="1080"
+                  height="1080"
+               />
             </Link>
             <Link
                href='/projects'

@@ -21,8 +21,15 @@ export default function Home() {
         <section
           className="flex flex-col items-center justify-center h-full pt-8"
         >
-          <p>hi, I'm</p>
-          <h1>Delin Gu</h1>
+          <h1
+            className='mb-8 text-moss'
+          >
+            HI, I'M
+          </h1>
+          <img
+            src='/assets/logo.png'
+            className='w-[65rem]'
+          />
         </section>
         <section
           className="pb-8"
