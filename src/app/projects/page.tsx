@@ -15,10 +15,10 @@ export default function Page() {
       >
          <Nav />
          <section
-            className='w-full flex flex-col items-center justify-center mt-20 mb-10'
+            className='w-full flex flex-col items-center justify-center mt-20 mb-2 text-moss'
          >
             <h2
-               className='text-black my-2'
+               className='text-[1.5rem] my-2 italic font-bold'
             >
                projects
             </h2>
@@ -27,7 +27,7 @@ export default function Page() {
             </p>
          </section>
          <section
-            className='flex flex-row justify-center w-screen h-full mt-15 mb-20'
+            className='flex flex-row justify-center w-screen h-full mb-20'
          >
             {projects.map((project: ProjectProps, index) => <ProjectIcon project={project} index={index} flip={flip} setFlip={setFlip}></ProjectIcon>)}
          </section>

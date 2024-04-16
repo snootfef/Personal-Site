@@ -27,7 +27,7 @@ export default function Home() {
             HI, I'M
           </h1>
           <img
-            src='/assets/logo.png'
+            src='/assets/logo.svg'
             className='w-[65rem]'
           />
         </section>
