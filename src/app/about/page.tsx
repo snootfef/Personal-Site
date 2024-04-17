@@ -18,7 +18,7 @@ export default function Page() {
             className='flex flex-col items-center justify-center h-screen relative '
          >
             <section
-               className='flex flex-row items-center justify-center'
+               className='flex flex-row items-center justify-center italic font-bold text-l'
             >
                <h2
                   className='m-32'
@@ -52,9 +52,9 @@ export default function Page() {
             className='min-h-screen w-full relative'
          >
             <h2
-               className='mt-24 ml-24'
+               className='mt-24 ml-24 italic font-bold'
             >
-               i love...
+               my life currently...
             </h2>
             <section
                className='z-40 flex flex-row w-full h-[90vh] relative bg-rice'

@@ -15,44 +15,60 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col items-center min-w-screen overflow-y-scroll bg-rice text-moss'
+         className='flex flex-col items-center min-w-screen overflow-auto bg-rice text-moss'
       >
          <Nav />
-         <section
-            className='flex flex-row items-center justify-center h-screen w-screen mt-8'
+         <div
+            className='min-h-screen'
          >
             <section
-               id="sidebar"
-               className='flex flex-col w-[25vw] items-center justify-center'
+               className='w-full flex flex-col items-center justify-center mt-20 mb-2 text-moss'
             >
-               {sidebarNames.map((name: string, index) =>
-                  <p
-                     className='p-2 cursor-pointer'
-                     onClick={() => setSidebar(designArray[index])}
-                  >
-                     {name}
-                  </p>
-               )}
-               <p
-                  className='text-xs italic'
+               <h2
+                  className='text-[1.5rem] my-2 italic font-bold'
                >
+                  designs
+               </h2>
+               <p>
                   click to learn more!
                </p>
             </section>
-            <div
-               className='w-[75vw] h-full'
+            <section
+               className='flex flex-row items-center justify-center h-full w-screen'
             >
-               <div
-                  className='w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
+               <section
+                  id="sidebar"
+                  className='flex flex-col w-[20vw] items-center justify-center'
                >
-                  {sidebar.map((design: DesignProps, index) =>
-                     <DesignIcon
-                        design={design} index={index} flip={flip} setFlip={setFlip}>
-                     </DesignIcon>
+                  {sidebarNames.map((name: string, index) =>
+                     <p
+                        className='p-2 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400'
+                        onClick={() => setSidebar(designArray[index])}
+                     >
+                        {name}
+                     </p>
                   )}
+                  <p
+                     className='text-xs italic'
+                  >
+                     click to learn more!
+                  </p>
+               </section>
+               <div
+                  className='w-[75vw] h-full mt-8'
+               >
+                  <div
+                     className='w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
+                  >
+                     {sidebar.map((design: DesignProps, index) =>
+                        <DesignIcon
+                           design={design} index={index} flip={flip} setFlip={setFlip}>
+                        </DesignIcon>
+                     )}
+                  </div>
                </div>
-            </div>
-         </section>
+            </section>
+         </div>
          <Footer />
       </main>
    );

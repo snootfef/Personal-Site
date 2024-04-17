@@ -7,7 +7,7 @@ export default function designIcon({ design, index, flip, setFlip }: { design: D
          className="flex flex-col items-center"
       >
          <div
-            className={`card ${flip === index ? "flip" : ""} min-w-[12.5vw] h-[65vh] m-5`}
+            className={`card ${flip === index ? "flip" : ""} min-w-[15vw] h-[55vh] m-5`}
          >
             <section
                onClick={() => setFlip(index)}

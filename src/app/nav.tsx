@@ -1,7 +1,7 @@
 'use client';
 import Link from "next/link"
 import useScrollPosition from "./useScrollPosition";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 export default function Nav() {
@@ -34,21 +34,21 @@ export default function Nav() {
             </Link>
             <Link
                href='/projects'
-               className="mx-16 hover:mx-20 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                projects
             </Link>
             <p>/</p>
             <Link
                href='/designs'
-               className="mx-16 hover:mx-20 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                designs
             </Link>
             <p>/</p>
             <Link
                href='/about'
-               className="mx-16 hover:mx-20 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                about
             </Link>
