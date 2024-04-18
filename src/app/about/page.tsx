@@ -15,10 +15,10 @@ export default function Page() {
       >
          <Nav />
          <section
-            className='flex flex-col items-center justify-center h-screen relative '
+            className='flex flex-col items-center justify-center h-screen relative font-playfair font-bold'
          >
             <section
-               className='flex flex-row items-center justify-center italic font-bold text-l'
+               className='flex flex-row items-center justify-center italic text-3xl text-moss'
             >
                <h2
                   className='m-32'
@@ -49,7 +49,7 @@ export default function Page() {
          </section>
          <section
             id='bottom'
-            className='min-h-screen w-full relative'
+            className='min-h-screen w-full relative font-playfair'
          >
             <h2
                className='mt-24 ml-24 italic font-bold'

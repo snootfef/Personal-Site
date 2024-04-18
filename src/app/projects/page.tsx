@@ -15,10 +15,10 @@ export default function Page() {
       >
          <Nav />
          <section
-            className='w-full flex flex-col items-center justify-center mt-20 mb-2 text-moss'
+            className='w-full flex flex-col items-center mt-20 mb-2 text-moss'
          >
             <h2
-               className='text-[1.5rem] my-2 italic font-bold'
+               className='text-[2rem] my-2 italic font-bold font-playfair'
             >
                projects
             </h2>

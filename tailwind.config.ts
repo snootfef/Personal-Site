@@ -1,3 +1,4 @@
+import { Playfair_Display } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -17,6 +18,9 @@ const config: Config = {
         'rice': '#fcf3e2',
         'rock': '#242424',
         'moss': '#2b5933'
+      },
+      fontFamily: {
+        playfair: ['Playfair Display']
       }
     },
   },
