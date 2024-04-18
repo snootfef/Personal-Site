@@ -20,15 +20,15 @@ export default function Nav() {
          className='z-50 flex flex-col justify-center items-center w-screen h-[4.8rem] fixed bg-rice text-moss'
       >
          <div
-            className={"relative flex flex-row justify-center items-center my-5 duration-700 ease-in-out " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'pl-0 pr-[43vw]' : 'px-[33vw]')}
+            className={"relative flex flex-row justify-center items-center my-5 duration-700 ease-in-out "}
          >
             <Link
                href='/'
-               className="absolute w-24 -left-32"
+               className="absolute w-24 right-[57.5vw]"
             >
                <Image
                   src="/assets/logoSmall.png"
-                  className={"h-full w-full ease-in-out duration-200 " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'opacity-100' : 'opacity-0')}
+                  className={"h-full w-full ease-in-out duration-200 hover:scale-105 " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'opacity-100' : 'opacity-0')}
                   alt=""
                   width="1080"
                   height="1080"
@@ -36,24 +36,29 @@ export default function Nav() {
             </Link>
             <Link
                href='/projects'
-               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                projects
             </Link>
             <p>/</p>
             <Link
                href='/designs'
-               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                designs
             </Link>
             <p>/</p>
             <Link
                href='/about'
-               className="mx-16 hover:mx-20 hover:scale-110 ease-in-out duration-400 transition-all"
+               className="mx-16 hover:scale-110 ease-in-out duration-400 transition-all"
             >
                about
             </Link>
+            <img
+               src="/assets/orange.png"
+               className={"w-[3.3rem] h-auto ease-in-out duration-200 absolute left-[59.5vw] " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'opacity-100' : 'opacity-0')}
+               alt=""
+            />
          </div>
       </nav>
    )
