@@ -19,7 +19,7 @@ export default function Page() {
       >
          <Nav />
          <div
-            className='min-h-screen'
+            className='px-20 min-h-screen'
          >
             <section
                className='w-full flex flex-col items-center justify-center mt-20 mb-2 text-moss'
@@ -34,7 +34,7 @@ export default function Page() {
                </p>
             </section>
             <section
-               className='flex flex-row items-center justify-center h-full w-screen'
+               className='mx-20 flex flex-row items-center justify-center h-full w-screen'
             >
                <section
                   id="sidebar"
@@ -58,7 +58,7 @@ export default function Page() {
                   className='w-[75vw] h-full mt-8'
                >
                   <div
-                     className='w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
+                     className='mr-20 w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
                   >
                      {sidebar.map((design: DesignProps, index) =>
                         <DesignIcon

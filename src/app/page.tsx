@@ -22,9 +22,9 @@ export default function Home() {
           className="flex flex-col items-center justify-center h-full pt-8"
         >
           <h1
-            className='mb-8 text-moss'
+            className='mt-14 mb-4 text-moss font-playfair italic font-bold text-xl'
           >
-            HI, I'M
+            hi, i'm
           </h1>
           <img
             src='/assets/logo.svg'
@@ -39,7 +39,7 @@ export default function Home() {
             onClick={handleClick}
           >
             <IoIosArrowDown
-              className="text-4xl opacity-25 hover:opacity-75 ease-in"
+              className="text-4xl opacity-25 hover:opacity-75 hover:scale-110 ease-in"
             />
           </button>
         </section>
@@ -49,14 +49,19 @@ export default function Home() {
         id="bottom"
       >
         <section
-          className="w-1/2 m-20 flex flex-col justify-center"
+          className="w-[40%] ml-36 flex flex-col justify-center"
         >
+          <h2
+            className='font-playfair font-bold italic my-4 text-3xl'
+          >
+            welcome!
+          </h2>
           <p
           >
-            Hi! I'm Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into what I've been up to.
+            I'm Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into some of my projects, designs, and what I've been up to.
           </p>
           <div
-            className="mt-8 flex flex-row"
+            className="mt-4 flex flex-row"
           >
             <a className='pr-2' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
               <FaGithub />
@@ -68,18 +73,18 @@ export default function Home() {
           </div>
         </section>
         <div
-          className="relative w-1/2 mt-16"
+          className="relative w-[60%] mt-16 -right-36"
         >
           <img
-            className='absolute top-16 w-[22vw] hover:scale-110 ease-in-out'
+            className='absolute top-16 w-[24vw] hover:scale-110 ease-in-out'
             src='/assets/orange.png'
           />
           <img
-            className='absolute top-[32rem] left-[16rem] w-[7vw] hover:scale-110'
+            className='absolute top-[32rem] left-[16rem] w-[8vw] hover:scale-110'
             src='/assets/blueberry1.png'
           />
           <img
-            className='absolute top-[24rem] left-[28rem] w-[7vw] hover:scale-110'
+            className='absolute top-[24rem] left-[28rem] w-[9vw] hover:scale-110'
             src='/assets/blueberry2.png'
           />
         </div>
