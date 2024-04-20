@@ -3,6 +3,7 @@ import Nav from './nav'
 import Footer from './footer';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -61,7 +62,7 @@ export default function Home() {
             I'm Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into some of my projects, designs, and what I've been up to.
           </p>
           <div
-            className="mt-4 flex flex-row"
+            className="mt-4 flex flex-row text-[1.25rem]"
           >
             <a className='pr-2' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
               <FaGithub />
@@ -69,7 +70,9 @@ export default function Home() {
             <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <FaExternalLinkAlt />
+            <a className='pr-2 text-[1.45rem]' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
+              <MdMail />
+            </a>
           </div>
         </section>
         <div

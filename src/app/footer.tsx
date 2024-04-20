@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { MdMail } from "react-icons/md";
 
 export default function Footer() {
    return (
@@ -19,6 +20,9 @@ export default function Footer() {
             </a>
             <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
                <FaLinkedin />
+            </a>
+            <a className='pr-2 text-[1.1rem]' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
+               <MdMail />
             </a>
          </div>
       </footer>

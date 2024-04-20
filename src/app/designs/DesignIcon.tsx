@@ -37,7 +37,9 @@ export default function designIcon({ design, index, flip, setFlip }: { design: D
                </p>
             </section>
          </div>
-         <p>
+         <p
+            className="text-base text-center font-bold"
+         >
             {design.name}
          </p>
       </main>

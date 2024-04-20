@@ -52,7 +52,7 @@ export default function Page() {
             className='min-h-screen w-full relative font-playfair'
          >
             <h2
-               className='mt-24 ml-24 italic font-bold'
+               className='mt-24 ml-24 italic font-bold text-xl'
             >
                my life currently...
             </h2>

@@ -10,6 +10,8 @@ export default function Nav() {
    const [scroll, setScroll] = useState(false)
    const pathname = usePathname()
 
+   const pages = ['/projects', '/designs', '/about']
+
    if (scrollPosition > 400 && !scroll)
       setScroll(true)
    else if (scrollPosition < 400 && scroll)
@@ -20,15 +22,15 @@ export default function Nav() {
          className='z-50 flex flex-col justify-center items-center w-screen h-[4.8rem] fixed bg-rice text-moss'
       >
          <div
-            className={"relative flex flex-row justify-center items-center my-5 duration-700 ease-in-out "}
+            className={"relative flex flex-row justify-center items-center my-5 duration-700 ease-in-out " + (scroll || pages.includes(pathname) ? 'pr-0 pl-[63vw]' : 'px-[33vw]')}
          >
             <Link
                href='/'
-               className="absolute w-24 right-[57.5vw]"
+               className="absolute w-24 right-[88vw]"
             >
                <Image
                   src="/assets/logoSmall.png"
-                  className={"h-full w-full ease-in-out duration-200 hover:scale-105 " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'opacity-100' : 'opacity-0')}
+                  className={"h-full w-full ease-in-out duration-200 hover:scale-105 " + (scroll || pages.includes(pathname) ? 'opacity-100' : 'opacity-0')}
                   alt=""
                   width="1080"
                   height="1080"
@@ -54,11 +56,6 @@ export default function Nav() {
             >
                about
             </Link>
-            <img
-               src="/assets/orange.png"
-               className={"w-[3.3rem] h-auto ease-in-out duration-200 absolute left-[59.5vw] " + (scroll || pathname === '/projects' || pathname === '/designs' || pathname === '/about' ? 'opacity-100' : 'opacity-0')}
-               alt=""
-            />
          </div>
       </nav>
    )

@@ -32,17 +32,21 @@ export default function projectIcon({ project, index, flip, setFlip }: { project
                >
                   {project.description}
                </p>
+               <p
+                  className="text-xs m-3 italic"
+               >
+                  {project.date}
+               </p>
             </section>
          </div>
          <section
             className="flex flex-col justify-center items-center w-24 h-12 text-moss"
          >
             <h2
-               className="text-lg text-center"
+               className="text-base text-center font-bold"
             >
                {project.name}
             </h2>
-
          </section>
       </main >
    )
