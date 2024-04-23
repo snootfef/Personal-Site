@@ -6,9 +6,12 @@ import DesignIcon from './DesignIcon';
 import { designArtwork } from '../data/designs'
 import { designGraphics } from '../data/designs'
 import { DesignProps } from '../Interfaces/Interfaces';
+import Modal from './Modal';
+import { MdDesignServices } from 'react-icons/md';
 
 export default function Page() {
-   const [flip, setFlip] = useState(-1);
+   const [openModal, setOpenModal] = useState(false)
+   const [designDisplay, setDesignDisplay] = useState(0)
    const [sidebar, setSidebar] = useState(designArtwork);
    const sidebarNames = ["Artworks", "Graphics"];
    const designArray = [designArtwork, designGraphics];
@@ -62,14 +65,24 @@ export default function Page() {
                   >
                      {sidebar.map((design: DesignProps, index) =>
                         <DesignIcon
-                           design={design} index={index} flip={flip} setFlip={setFlip}>
-                        </DesignIcon>
+                           design={design}
+                           index={index}
+                           onClick={() => {
+                              setDesignDisplay(index);
+                              setOpenModal(true)
+                           }}
+                        />
                      )}
                   </div>
                </div>
             </section>
          </div>
          <Footer />
+         <Modal
+            open={openModal}
+            onClose={() => setOpenModal(false)}
+            designs={sidebar[designDisplay]}
+         />
       </main>
    );
 
