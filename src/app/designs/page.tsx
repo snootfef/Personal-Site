@@ -7,7 +7,6 @@ import { designArtwork } from '../data/designs'
 import { designGraphics } from '../data/designs'
 import { DesignProps } from '../Interfaces/Interfaces';
 import Modal from './Modal';
-import { MdDesignServices } from 'react-icons/md';
 
 export default function Page() {
    const [openModal, setOpenModal] = useState(false)
