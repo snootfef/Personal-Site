@@ -3,7 +3,7 @@ import Nav from './nav'
 import Footer from './footer';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { MdMail } from "react-icons/md";
+import { RiMailFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -70,8 +70,8 @@ export default function Home() {
             <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
               <FaLinkedin />
             </a>
-            <a className='pr-2 text-[1.45rem]' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
-              <MdMail />
+            <a className='pr-2' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
+              <RiMailFill />
             </a>
           </div>
         </section>

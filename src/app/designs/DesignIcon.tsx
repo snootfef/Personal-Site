@@ -5,7 +5,7 @@ import { DesignProps } from "../Interfaces/Interfaces"
 export default function designIcon({ design, index, onClick }: { design: DesignProps, index: number, onClick: MouseEventHandler }) {
    return (
       <main
-         className="flex flex-col items-center"
+         className="flex flex-col items-center hover:scale-105 ease-in-out duration-200 transition-all"
          onClick={onClick}
       >
          <div

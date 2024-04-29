@@ -12,7 +12,7 @@ export default function Page() {
    const [openModal, setOpenModal] = useState(false)
    const [designDisplay, setDesignDisplay] = useState(0)
    const [sidebar, setSidebar] = useState(designArtwork);
-   const sidebarNames = ["Artworks", "Graphics"];
+   const sidebarNames = ["artworks", "graphics"];
    const designArray = [designArtwork, designGraphics];
 
    return (
@@ -31,33 +31,30 @@ export default function Page() {
                >
                   designs
                </h2>
-               <p>
-                  click to learn more!
+               <p
+                  className='mt-2'
+               >
+                  click to learn more <span className="px-1" />  /  <span className="px-1" /> shift + scroll to scroll
                </p>
             </section>
             <section
-               className='mx-20 flex flex-row items-center justify-center h-full w-screen'
+               className='mx-20 h-full flex flex-row items-center justify-center w-screen'
             >
                <section
                   id="sidebar"
-                  className='flex flex-col w-[20vw] items-center justify-center'
+                  className='flex flex-col w-[15vw] items-center justify-center'
                >
                   {sidebarNames.map((name: string, index) =>
                      <p
-                        className='p-2 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400'
+                        className='p-4 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
                         onClick={() => setSidebar(designArray[index])}
                      >
                         {name}
                      </p>
                   )}
-                  <p
-                     className='text-xs italic'
-                  >
-                     click to learn more!
-                  </p>
                </section>
                <div
-                  className='w-[75vw] h-full mt-8'
+                  className='w-[80vw] h-[65vh] mt-4'
                >
                   <div
                      className='mr-20 w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
