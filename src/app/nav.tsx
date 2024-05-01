@@ -62,13 +62,13 @@ export default function Nav() {
             <div
                className="flex absolute -right-[32rem]"
             >
-               <a className='pr-2' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
+               <a className='pr-2  hover:scale-110 ease-in-out transition-all duration-200' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                </a>
-               <a className='pr-2' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
+               <a className='pr-2  hover:scale-110' href='https://www.linkedin.com/in/delin-gu/' target="_blank" rel="noopener noreferrer">
                   <FaLinkedin />
                </a>
-               <a className='pr-2' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
+               <a className='pr-2  hover:scale-110' href='mailto:d2gu@uwaterloo.ca' target="_blank" rel="noopener noreferrer">
                   <RiMailFill />
                </a>
             </div>

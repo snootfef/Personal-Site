@@ -27,7 +27,7 @@ export default function Page() {
                </h2>
                <section
                   style={{
-                     backgroundImage: "url('/assets/about1.jpg')",
+                     backgroundImage: "url('/assets/about/about1.jpg')",
                      backgroundPosition: "left 48% bottom 50%",
                      backgroundSize: "150%"
                   }}
@@ -62,7 +62,7 @@ export default function Page() {
             >
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutFlowers.jpg')",
+                     backgroundImage: "url('/assets/about/aboutFlowers.jpg')",
                      backgroundPosition: "center",
                      backgroundSize: "125%"
                   }}
@@ -70,7 +70,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutUoft.jpg')",
+                     backgroundImage: "url('/assets/about/aboutUoft.jpg')",
                      backgroundPosition: "left 10% top 80%",
                      backgroundSize: "120%"
                   }}
@@ -78,7 +78,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutCake.jpg')",
+                     backgroundImage: "url('/assets/about/aboutCake.jpg')",
                      backgroundPosition: "center",
                      backgroundSize: "140%"
                   }}
@@ -86,7 +86,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutDog.jpg')",
+                     backgroundImage: "url('/assets/about/aboutDog.jpg')",
                      backgroundPosition: "center",
                      backgroundSize: "120%"
                   }}
@@ -98,7 +98,7 @@ export default function Page() {
             >
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutFood.jpg')",
+                     backgroundImage: "url('/assets/about/aboutFood.jpg')",
                      backgroundPosition: "left 60% bottom 40%",
                      backgroundSize: "140%"
                   }}
@@ -106,7 +106,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutCapybara.jpg')",
+                     backgroundImage: "url('/assets/about/aboutCapybara.jpg')",
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "150%"
                   }}
@@ -114,7 +114,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutOrchestra.jpg')",
+                     backgroundImage: "url('/assets/about/aboutOrchestra.jpg')",
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "120%"
                   }}
@@ -122,7 +122,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/aboutSki.jpg')",
+                     backgroundImage: "url('/assets/about/aboutSki.jpg')",
                      backgroundPosition: "left 30% bottom 0%",
                      backgroundSize: "95%"
                   }}

@@ -13,10 +13,10 @@ const Modal = ({ open, onClose, designs }: { open: boolean, onClose: MouseEventH
             onClick={(e) => {
                e.stopPropagation();
             }}
-            className=""
+            className="m-8"
          >
             <img
-               src={"/assets/" + designs.img}
+               src={"/assets/designs/" + designs.img}
                className="w-[450px] mb-6"
             />
             <h2
@@ -30,23 +30,27 @@ const Modal = ({ open, onClose, designs }: { open: boolean, onClose: MouseEventH
                {designs.date}
             </p>
          </section>
-         <section
-            className="p-28"
+         <div
+            className="m-8 w-96"
          >
-            <p
-               className="my-3 italic"
+            <section
+               className=""
             >
-               {designs.tools}
-            </p>
-            <div
-               className="h-[0.09rem] w-36 bg-rice"
-            />
-            <p
-               className="text-s my-3"
-            >
-               {designs.description}
-            </p>
-         </section>
+               <p
+                  className="my-3 italic"
+               >
+                  {designs.tools}
+               </p>
+               <div
+                  className="h-[0.09rem] w-36 bg-rice"
+               />
+               <p
+                  className="text-s my-3"
+               >
+                  {designs.description}
+               </p>
+            </section>
+         </div>
       </div >
    )
 }

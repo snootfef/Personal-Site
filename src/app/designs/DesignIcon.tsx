@@ -13,8 +13,9 @@ export default function designIcon({ design, index, onClick }: { design: DesignP
          >
             <section
                style={{
-                  backgroundImage: "url('/assets/" + design.img + "')",
-                  backgroundPosition: "center"
+                  backgroundImage: "url('/assets/designs/" + design.img + "')",
+                  backgroundPosition: "center",
+                  backgroundSize: "130%"
                }}
                className="rounded-full front flex flex-col items-center justify-center w-full h-full"
             >

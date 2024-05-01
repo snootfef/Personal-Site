@@ -11,9 +11,9 @@ import Modal from './Modal';
 export default function Page() {
    const [openModal, setOpenModal] = useState(false)
    const [designDisplay, setDesignDisplay] = useState(0)
-   const [sidebar, setSidebar] = useState(designArtwork);
-   const sidebarNames = ["artworks", "graphics"];
-   const designArray = [designArtwork, designGraphics];
+   const [sidebar, setSidebar] = useState(designGraphics);
+   const sidebarNames = ["graphics", "artworks"];
+   const designArray = [designGraphics, designArtwork];
 
    return (
       <main
@@ -69,6 +69,13 @@ export default function Page() {
                            }}
                         />
                      )}
+                     <div
+                        className={'flex items-center w-full h-full text-xl font-bold italic font-playfair pl-28 ' + (sidebar == designArtwork ? "opacity-100" : "opacity-0")}
+                     >
+                        <p>
+                           coming soon!
+                        </p>
+                     </div>
                   </div>
                </div>
             </section>
