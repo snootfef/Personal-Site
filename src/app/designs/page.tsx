@@ -17,14 +17,14 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col items-center min-w-screen overflow-auto bg-rice text-moss'
+         className='flex flex-col items-center max-w-screen bg-rice text-moss'
       >
          <Nav />
          <div
-            className='px-20 min-h-screen'
+            className='min-h-screen'
          >
             <section
-               className='w-full flex flex-col items-center justify-center mt-20 mb-2 text-moss'
+               className='max-w-screen flex flex-col items-center justify-center mt-20 mb-2 text-moss'
             >
                <h2
                   className='text-[2rem] my-2 italic font-bold font-playfair'
@@ -38,7 +38,7 @@ export default function Page() {
                </p>
             </section>
             <section
-               className='mx-20 h-full flex flex-row items-center justify-center w-screen'
+               className='h-full flex flex-row items-center justify-center w-screen'
             >
                <section
                   id="sidebar"
