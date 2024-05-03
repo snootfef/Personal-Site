@@ -46,9 +46,33 @@ export default function Home() {
         </section>
       </section>
       <section
-        className="flex h-screen w-screen bg-rice text-moss"
+        className=" relative flex h-screen w-screen bg-rice text-moss"
         id="bottom"
       >
+        <div
+          className='z-0 opacity-50'
+        >
+          <img
+            className='absolute w-[18vw] left-[46rem] top-[6.5rem]'
+            src="/assets/star8.png"
+          />
+          <img
+            className='absolute w-[26.5vw] right-[10rem] top-[7rem] -rotate-45'
+            src="/assets/star7.png"
+          />
+          <img
+            className='absolute w-[15vw] -left-[3rem] top-[26.5rem] -rotate-[25deg]'
+            src="/assets/star8.png"
+          />
+          <img
+            className='absolute w-[17vw] left-[63rem] top-[34rem] rotate-90'
+            src="/assets/star5.png"
+          />
+          <img
+            className='absolute w-[10vw] left-[7rem] top-[32rem] rotate-90'
+            src="/assets/star3.png"
+          />
+        </div>
         <section
           className="w-[40%] ml-36 flex flex-col justify-center"
         >
@@ -79,15 +103,15 @@ export default function Home() {
           className="relative w-[60%] mt-16 -right-36"
         >
           <img
-            className='absolute top-16 w-[24vw] hover:scale-110 ease-in-out'
+            className='absolute top-16 w-[24vw] ease-in-out'
             src='/assets/orange.png'
           />
           <img
-            className='absolute top-[32rem] left-[16rem] w-[8vw] hover:scale-110'
+            className='absolute top-[32rem] left-[16rem] w-[8vw]'
             src='/assets/blueberry1.png'
           />
           <img
-            className='absolute top-[24rem] left-[28rem] w-[9vw] hover:scale-110'
+            className='absolute top-[24rem] left-[28rem] w-[9vw]'
             src='/assets/blueberry2.png'
           />
         </div>

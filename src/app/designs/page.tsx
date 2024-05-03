@@ -17,8 +17,32 @@ export default function Page() {
 
    return (
       <main
-         className='flex flex-col items-center max-w-screen bg-rice text-moss'
+         className='relative flex flex-col items-center max-w-screen bg-rice text-moss'
       >
+         <img
+            className='absolute w-[13vw] left-[8.5rem] top-[20rem]'
+            src="/assets/star4.png"
+         />
+         <div
+            className='z-0 opacity-50'
+         >
+            <img
+               className='absolute w-[25vw] right-[18rem] top-[5rem] rotate-180'
+               src="/assets/star2.png"
+            />
+            <img
+               className='absolute w-[24vw] right-[5.5rem] top-[35rem]'
+               src="/assets/star5.png"
+            />
+            <img
+               className='absolute w-[11vw] left-[30rem] top-[6.5rem] rotate-90'
+               src="/assets/star3.png"
+            />
+            <img
+               className='absolute w-[21vw] -left-[8rem] bottom-[4rem] rotate-180'
+               src="/assets/star1.png"
+            />
+         </div>
          <Nav />
          <div
             className='min-h-screen'
@@ -46,7 +70,7 @@ export default function Page() {
                >
                   {sidebarNames.map((name: string, index) =>
                      <p
-                        className='p-4 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
+                        className='py-4 pr-24 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
                         onClick={() => setSidebar(designArray[index])}
                      >
                         {name}

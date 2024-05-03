@@ -5,7 +5,7 @@ import { MdMail } from "react-icons/md";
 export default function Footer() {
    return (
       <footer
-         className="w-screen h-32 p-10 flex flex-row justify-around bg-moss text-rice"
+         className="w-screen h-32 p-10 flex flex-row justify-around bg-moss text-rice z-0"
       >
          <h2
             className="font-xl"
