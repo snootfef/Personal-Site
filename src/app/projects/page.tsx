@@ -18,19 +18,19 @@ export default function Page() {
          >
             <img
                className='absolute w-[21vw] -left-[7.5rem] top-[6.5rem]'
-               src="/assets/star2.png"
+               src="/assets/star2.PNG"
             />
             <img
                className='absolute w-[28vw] -right-[5rem] top-[42rem] rotate-[184deg]'
-               src="/assets/star5.png"
+               src="/assets/star5.PNG"
             />
             <img
                className='absolute w-[20vw] left-[28.5rem] top-[40rem] rotate-45'
-               src="/assets/star5.png"
+               src="/assets/star5.PNG"
             />
             <img
                className='absolute w-[25vw] right-[7rem] top-[4.5rem]'
-               src="/assets/star1.png"
+               src="/assets/star1.PNG"
             />
          </div>
          <Nav />

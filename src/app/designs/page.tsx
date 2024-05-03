@@ -21,26 +21,26 @@ export default function Page() {
       >
          <img
             className='absolute w-[13vw] left-[8.5rem] top-[20rem]'
-            src="/assets/star4.png"
+            src="/assets/star4.PNG"
          />
          <div
             className='z-0 opacity-50'
          >
             <img
                className='absolute w-[25vw] right-[18rem] top-[5rem] rotate-180'
-               src="/assets/star2.png"
+               src="/assets/star2.PNG"
             />
             <img
                className='absolute w-[24vw] right-[5.5rem] top-[35rem]'
-               src="/assets/star5.png"
+               src="/assets/star5.PNG"
             />
             <img
                className='absolute w-[11vw] left-[30rem] top-[6.5rem] rotate-90'
-               src="/assets/star3.png"
+               src="/assets/star3.PNG"
             />
             <img
                className='absolute w-[21vw] -left-[8rem] bottom-[4rem] rotate-180'
-               src="/assets/star1.png"
+               src="/assets/star1.PNG"
             />
          </div>
          <Nav />

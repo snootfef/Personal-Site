@@ -5,7 +5,6 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { RiMailFill } from "react-icons/ri";
 import { IoIosArrowDown } from "react-icons/io";
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 export default function Home() {
 
@@ -66,11 +65,11 @@ export default function Home() {
           />
           <img
             className='absolute w-[17vw] left-[63rem] top-[34rem] rotate-90'
-            src="/assets/star5.png"
+            src="/assets/star5.PNG"
           />
           <img
             className='absolute w-[10vw] left-[7rem] top-[32rem] rotate-90'
-            src="/assets/star3.png"
+            src="/assets/star3.PNG"
           />
         </div>
         <section
