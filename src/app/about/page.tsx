@@ -27,7 +27,7 @@ export default function Page() {
                </h2>
                <section
                   style={{
-                     backgroundImage: "url('/assets/about/about1.jpg')",
+                     backgroundImage: "url('/assets/about/about1.JPG')",
                      backgroundPosition: "left 48% bottom 50%",
                      backgroundSize: "150%"
                   }}
@@ -98,7 +98,7 @@ export default function Page() {
             >
                <div
                   style={{
-                     backgroundImage: "url('/assets/about/aboutFood.jpg')",
+                     backgroundImage: "url('/assets/about/aboutFood.JPG')",
                      backgroundPosition: "left 60% bottom 40%",
                      backgroundSize: "140%"
                   }}
@@ -106,7 +106,7 @@ export default function Page() {
                />
                <div
                   style={{
-                     backgroundImage: "url('/assets/about/aboutCapybara.jpg')",
+                     backgroundImage: "url('/assets/about/aboutCapybara.JPG')",
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "150%"
                   }}
