@@ -49,7 +49,7 @@ export default function Page() {
          <section
             className='mx-20 flex flex-row justify-center w-screen h-full mb-20'
          >
-            {projects.map((project: ProjectProps, index) => <ProjectIcon project={project} index={index} flip={flip} setFlip={setFlip}></ProjectIcon>)}
+            {projects.map((project: ProjectProps, index) => <ProjectIcon key={index} project={project} index={index} flip={flip} setFlip={setFlip}></ProjectIcon>)}
          </section>
          <Footer />
       </main>

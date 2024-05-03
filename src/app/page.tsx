@@ -25,7 +25,7 @@ export default function Home() {
           <h1
             className='mt-14 mb-4 text-moss font-playfair italic font-bold text-xl'
           >
-            hi, i'm
+            hi, i&apos;m
           </h1>
           <img
             src='/assets/logo.svg'
@@ -83,7 +83,7 @@ export default function Home() {
           </h2>
           <p
           >
-            I'm Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into some of my projects, designs, and what I've been up to.
+            I&apos;m Delin, a first year Systems Design Engineering student at the University of Waterloo. Welcome to delingu.com, a glimpse into some of my projects, designs, and what I&apos;ve been up to.
           </p>
           <div
             className="mt-4 flex flex-row text-[1.25rem]"

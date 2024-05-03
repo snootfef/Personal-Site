@@ -70,6 +70,7 @@ export default function Page() {
                >
                   {sidebarNames.map((name: string, index) =>
                      <p
+                        key={index}
                         className='py-4 pr-24 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
                         onClick={() => setSidebar(designArray[index])}
                      >
@@ -85,6 +86,7 @@ export default function Page() {
                   >
                      {sidebar.map((design: DesignProps, index) =>
                         <DesignIcon
+                           key={index}
                            design={design}
                            index={index}
                            onClick={() => {
