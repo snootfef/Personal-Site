@@ -14,22 +14,22 @@ export default function Page() {
          className="flex flex-col items-center w-screen min-h-screen overflow-auto relative bg-rice"
       >
          <div
-            className='z-0 opacity-50'
+            className='z-0 opacity-60'
          >
             <img
-               className='absolute w-[21vw] -left-[7.5rem] top-[6.5rem]'
+               className='absolute w-[21vw] 2xl:-left-[7.5rem] xl:left-[5rem] top-[6.5rem]'
                src="/assets/star2.PNG"
             />
             <img
-               className='absolute w-[28vw] -right-[5rem] top-[42rem] rotate-[184deg]'
+               className='absolute w-[28vw] -right-[5rem] 2xl:top-[42rem] xl:top-[33rem] rotate-[184deg]'
                src="/assets/star5.PNG"
             />
             <img
-               className='absolute w-[20vw] left-[28.5rem] top-[40rem] rotate-45'
+               className='absolute w-[20vw] 2xl:left-[28.5rem] 2xl:top-[40rem] xl:top-[30rem] xl:left-[18rem] rotate-45'
                src="/assets/star5.PNG"
             />
             <img
-               className='absolute w-[25vw] right-[7rem] top-[4.5rem]'
+               className='absolute w-[25vw] 2xl:right-[7rem] xl:right-[10rem] top-[4.5rem]'
                src="/assets/star1.PNG"
             />
          </div>

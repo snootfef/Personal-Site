@@ -17,7 +17,7 @@ const Modal = ({ open, onClose, designs }: { open: boolean, onClose: MouseEventH
          >
             <img
                src={"/assets/designs/" + designs.img}
-               className="w-[450px] mb-6"
+               className="2xl:w-[450px] xl:w-[400px] mb-6"
             />
             <h2
                className=""

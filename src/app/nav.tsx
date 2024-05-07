@@ -29,7 +29,7 @@ export default function Nav() {
          >
             <Link
                href='/'
-               className="absolute w-20 -left-[32rem]"
+               className="absolute xl:-left-[20rem] xl:w-[5rem] 2xl:w-20 2xl:-left-[32rem]"
             >
                <Image
                   src="/assets/logoSmall.png"
@@ -60,7 +60,7 @@ export default function Nav() {
                about
             </Link>
             <div
-               className="flex absolute -right-[32rem]"
+               className="flex absolute 2xl:-right-[32rem] xl:-right-[20rem]"
             >
                <a className='pr-2  hover:scale-110 ease-in-out transition-all duration-200' href="https://github.com/snootfef" target="_blank" rel="noopener noreferrer">
                   <FaGithub />

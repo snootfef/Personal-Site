@@ -5,13 +5,14 @@ export default function projectIcon({ project, index, flip, setFlip }: { project
       <main
          className="flex flex-col items-center"
       >
-         <div className={`card ${flip === index ? "flip" : ""} w-[12.5vw] h-[65vh] m-5`}>
+         <div className={`card ${flip === index ? "flip" : ""} w-[12.5vw] 2xl:h-[65vh] xl:h-[56vh] m-5`}>
             <section
                onClick={() => setFlip(index)}
                className="rounded-full front flex flex-col items-center justify-center w-full h-full"
                style={{
                   backgroundImage: "url('/assets/" + project.img + "')",
-                  backgroundPosition: "center"
+                  backgroundPosition: "center",
+                  backgroundSize: "500%"
                }}
             >
             </section>

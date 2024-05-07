@@ -31,7 +31,7 @@ export default function Page() {
                      backgroundPosition: "left 48% bottom 50%",
                      backgroundSize: "150%"
                   }}
-                  className="rounded-full front flex flex-col items-center justify-center w-[22vw] h-[80vh]"
+                  className="rounded-full front flex flex-col items-center justify-center w-[22vw] 2xl:h-[80vh] xl:h-[70vh]"
                >
                </section>
                <h2
@@ -61,12 +61,32 @@ export default function Page() {
                className='z-40 flex flex-row w-full h-[90vh] relative bg-rice'
             >
                <div
+                  className='z-0 opacity-60'
+               >
+                  <img
+                     className='absolute w-[15vw] 2xl:left-[20rem] xl:left-[5rem] top-[0rem]'
+                     src="/assets/star3.PNG"
+                  />
+                  <img
+                     className='absolute w-[28vw] left-[5rem] 2xl:top-[32rem] xl:top-[33rem] rotate-[200deg]'
+                     src="/assets/star7.PNG"
+                  />
+                  <img
+                     className='absolute w-[20vw] 2xl:left-[48rem] 2xl:top-[50rem] xl:top-[30rem] xl:left-[18rem] rotate-45'
+                     src="/assets/star5.PNG"
+                  />
+                  <img
+                     className='absolute w-[25vw] 2xl:right-[10rem] xl:right-[10rem] top-[12rem]'
+                     src="/assets/star1.PNG"
+                  />
+               </div>
+               <div
                   style={{
                      backgroundImage: "url('/assets/about/aboutFlowers.jpg')",
                      backgroundPosition: "center",
                      backgroundSize: "125%"
                   }}
-                  className='my-16 ml-20 mr-16 rounded-full w-[18vw] h-[60vh] bg-moss'
+                  className='z-10 my-16 ml-20 mr-16 rounded-full w-[18vw] 2xl:h-[60vh] xl:h-[50vh] bg-moss'
                />
                <div
                   style={{
@@ -74,7 +94,7 @@ export default function Page() {
                      backgroundPosition: "left 10% top 80%",
                      backgroundSize: "120%"
                   }}
-                  className='mt-[16rem] rounded-full w-[15vw] h-[45vh] bg-green-400'
+                  className='z-10 mt-[16rem] rounded-full w-[15vw] 2xl:h-[45vh] xl:h-[40vh] bg-green-400'
                />
                <div
                   style={{
@@ -82,7 +102,7 @@ export default function Page() {
                      backgroundPosition: "center",
                      backgroundSize: "140%"
                   }}
-                  className='mt-56 ml-[15rem] rounded-full w-[20vw] h-[72vh] bg-green-400'
+                  className='z-10 mt-56 2xl:ml-[15rem] xl:ml-[9rem] rounded-full w-[20vw] 2xl:h-[72vh] xl:h-[61vh] bg-green-400'
                />
                <div
                   style={{
@@ -90,19 +110,35 @@ export default function Page() {
                      backgroundPosition: "center",
                      backgroundSize: "120%"
                   }}
-                  className='ml-[5rem] mt-[28rem] rounded-full w-[16vw] h-[60vh] bg-green-400'
+                  className='z-10 ml-[5rem] mt-[28rem] rounded-full w-[16vw] 2xl:h-[60vh] xl:h-[50vh] bg-green-400'
                />
             </section>
             <section
                className='z-30 flex flex-row w-full h-[110vh] relative bg-rice'
             >
                <div
+                  className='z-0 opacity-60'
+               >
+                  <img
+                     className='absolute w-[28vw] -left-[8rem] 2xl:top-[30rem] xl:top-[33rem] rotate-[200deg]'
+                     src="/assets/star5.PNG"
+                  />
+                  <img
+                     className='absolute w-[30vw] 2xl:left-[32rem] 2xl:top-[32rem] xl:top-[30rem] xl:left-[18rem] -rotate-45'
+                     src="/assets/star7.PNG"
+                  />
+                  <img
+                     className='absolute w-[25vw] 2xl:right-[12rem] xl:right-[10rem] top-[30rem]'
+                     src="/assets/star2.PNG"
+                  />
+               </div>
+               <div
                   style={{
                      backgroundImage: "url('/assets/about/aboutFood.JPG')",
                      backgroundPosition: "left 60% bottom 40%",
                      backgroundSize: "140%"
                   }}
-                  className='ml-[8rem] mt-[9rem] rounded-full w-[16vw] h-[55vh] bg-green-400'
+                  className='z-10 2xl:ml-[8rem] xl:ml-[6rem] mt-[9rem] rounded-full w-[16vw] 2xl:h-[55vh] xl:h-[50vh] bg-green-400'
                />
                <div
                   style={{
@@ -110,7 +146,7 @@ export default function Page() {
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "150%"
                   }}
-                  className='ml-16 rounded-full w-[20vw] h-[69vh] bg-green-400'
+                  className='z-10 ml-16 rounded-full w-[20vw] h-[69vh] bg-green-400'
                />
                <div
                   style={{
@@ -118,7 +154,7 @@ export default function Page() {
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "120%"
                   }}
-                  className='ml-24 mt-[18rem] rounded-full w-[20vw] h-[70vh] bg-green-400'
+                  className='z-10 ml-24 mt-[18rem] rounded-full w-[20vw] h-[70vh] bg-green-400'
                />
                <div
                   style={{
@@ -126,7 +162,7 @@ export default function Page() {
                      backgroundPosition: "left 30% bottom 0%",
                      backgroundSize: "95%"
                   }}
-                  className='ml-8 mt-[15rem] rounded-full w-[18vw] h-[45vh] bg-green-400'
+                  className='z-10 ml-8 mt-[15rem] rounded-full w-[18vw] 2xl:h-[45vh] xl:h-[43vh] bg-green-400'
                />
             </section>
          </section>

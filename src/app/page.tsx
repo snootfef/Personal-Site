@@ -22,13 +22,13 @@ export default function Home() {
           className="flex flex-col items-center justify-center h-full pt-8"
         >
           <h1
-            className='mt-14 mb-4 text-moss font-playfair italic font-bold text-xl'
+            className='xl:mt-14 mb-4 text-moss font-playfair italic font-bold text-xl'
           >
             hi, i&apos;m
           </h1>
           <img
             src='/assets/logo.svg'
-            className='w-[65rem]'
+            className='2xl:w-[65rem] xl:w-[55rem]'
           />
         </section>
         <section
@@ -49,14 +49,14 @@ export default function Home() {
         id="bottom"
       >
         <div
-          className='z-0 opacity-50'
+          className='z-0 opacity-75'
         >
           <img
-            className='absolute w-[18vw] left-[46rem] top-[6.5rem]'
+            className='absolute w-[18vw] 2xl:left-[46rem] 2xl:top-[6.5rem] xl:left-[37rem] xl:top-[6.5rem]'
             src="/assets/star8.png"
           />
           <img
-            className='absolute w-[26.5vw] right-[10rem] top-[7rem] -rotate-45'
+            className='absolute w-[26.5vw] 2xl:right-[10rem] 2xl:top-[7rem] xl:right-[8rem] xl:top-[5rem] -rotate-45'
             src="/assets/star7.png"
           />
           <img
@@ -64,11 +64,11 @@ export default function Home() {
             src="/assets/star8.png"
           />
           <img
-            className='absolute w-[17vw] left-[63rem] top-[34rem] rotate-90'
+            className='absolute w-[17vw] 2xl:left-[63rem] 2xl:top-[34rem] xl:left-[50rem] xl:top-[30rem] rotate-90'
             src="/assets/star5.PNG"
           />
           <img
-            className='absolute w-[10vw] left-[7rem] top-[32rem] rotate-90'
+            className='absolute w-[10vw] xl:left-[7rem] xl:top-[32rem] rotate-90'
             src="/assets/star3.PNG"
           />
         </div>
@@ -102,15 +102,15 @@ export default function Home() {
           className="relative w-[60%] mt-16 -right-36"
         >
           <img
-            className='absolute top-16 w-[24vw] ease-in-out'
+            className='absolute xl:top-16 xl:w-[24vw] ease-in-out'
             src='/assets/orange.png'
           />
           <img
-            className='absolute top-[32rem] left-[16rem] w-[8vw]'
+            className='absolute 2xl:top-[32rem] 2xl:left-[16rem] xl:top-[26rem] xl:left-[10rem] w-[8vw]'
             src='/assets/blueberry1.png'
           />
           <img
-            className='absolute top-[24rem] left-[28rem] w-[9vw]'
+            className='absolute 2xl:top-[24rem] 2xl:left-[28rem] xl:top-[18rem] xl:left-[21rem] w-[9vw]'
             src='/assets/blueberry2.png'
           />
         </div>

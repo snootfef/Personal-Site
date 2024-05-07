@@ -20,22 +20,22 @@ export default function Page() {
          className='relative flex flex-col items-center max-w-screen bg-rice text-moss'
       >
          <img
-            className='absolute w-[13vw] left-[8.5rem] top-[20rem]'
+            className='absolute w-[13vw] 2xl:left-[8.5rem] xl:left-[6.9rem] 2xl:top-[20rem] xl:top-[19rem]'
             src="/assets/star4.PNG"
          />
          <div
-            className='z-0 opacity-50'
+            className='z-0 opacity-60'
          >
             <img
-               className='absolute w-[25vw] right-[18rem] top-[5rem] rotate-180'
+               className='absolute w-[25vw] 2xl:right-[18rem] xl:right-[15rem] top-[5rem] rotate-180'
                src="/assets/star2.PNG"
             />
             <img
-               className='absolute w-[24vw] right-[5.5rem] top-[35rem]'
+               className='absolute w-[24vw] 2xl:right-[5.5rem] xl:right-[2rem] top-[35rem]'
                src="/assets/star5.PNG"
             />
             <img
-               className='absolute w-[11vw] left-[30rem] top-[6.5rem] rotate-90'
+               className='absolute w-[11vw] 2xl:left-[30rem] xl:left-[20rem] top-[6.5rem] rotate-90'
                src="/assets/star3.PNG"
             />
             <img
@@ -71,7 +71,7 @@ export default function Page() {
                   {sidebarNames.map((name: string, index) =>
                      <p
                         key={index}
-                        className='py-4 pr-24 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
+                        className='py-4 2xl:pr-24 xl:pr-14 cursor-pointer hover:scale-110 ease-in-out transition-all duration-400 font-playfair italic font-bold text-xl underline'
                         onClick={() => setSidebar(designArray[index])}
                      >
                         {name}
@@ -79,7 +79,7 @@ export default function Page() {
                   )}
                </section>
                <div
-                  className='w-[80vw] h-[65vh] mt-4'
+                  className='w-[80vw] 2xl:h-[65vh] xl:h-[68vh] mt-4'
                >
                   <div
                      className='mr-20 w-full h-full flex flex-row items-center flex-nowrap overflow-x-scroll'
