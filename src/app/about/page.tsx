@@ -64,15 +64,15 @@ export default function Page() {
                   className='z-0 opacity-60'
                >
                   <img
-                     className='absolute w-[15vw] 2xl:left-[20rem] xl:left-[5rem] top-[0rem]'
+                     className='absolute w-[15vw] 2xl:left-[20rem] xl:left-[20rem] top-[0rem]'
                      src="/assets/star3.PNG"
                   />
                   <img
-                     className='absolute w-[28vw] left-[5rem] 2xl:top-[32rem] xl:top-[33rem] rotate-[200deg]'
+                     className='absolute w-[28vw] 2xl:left-[5rem] xl:left-[3rem] 2xl:top-[32rem] xl:top-[33rem] rotate-[200deg]'
                      src="/assets/star7.PNG"
                   />
                   <img
-                     className='absolute w-[20vw] 2xl:left-[48rem] 2xl:top-[50rem] xl:top-[30rem] xl:left-[18rem] rotate-45'
+                     className='absolute w-[20vw] 2xl:left-[48rem] 2xl:top-[50rem] xl:top-[45rem] xl:left-[45rem] rotate-45'
                      src="/assets/star5.PNG"
                   />
                   <img
@@ -120,15 +120,15 @@ export default function Page() {
                   className='z-0 opacity-60'
                >
                   <img
-                     className='absolute w-[28vw] -left-[8rem] 2xl:top-[30rem] xl:top-[33rem] rotate-[200deg]'
+                     className='absolute w-[28vw] -left-[8rem] 2xl:top-[30rem] xl:top-[22rem] rotate-[200deg]'
                      src="/assets/star5.PNG"
                   />
                   <img
-                     className='absolute w-[30vw] 2xl:left-[32rem] 2xl:top-[32rem] xl:top-[30rem] xl:left-[18rem] -rotate-45'
+                     className='absolute w-[30vw] 2xl:left-[32rem] 2xl:top-[32rem] xl:top-[24rem] xl:left-[18rem] -rotate-45'
                      src="/assets/star7.PNG"
                   />
                   <img
-                     className='absolute w-[25vw] 2xl:right-[12rem] xl:right-[10rem] top-[30rem]'
+                     className='absolute 2xl:w-[25vw] xl:w-[20vw] 2xl:right-[12rem] xl:right-[5rem] 2xl:top-[30rem] xl:top-[32rem]'
                      src="/assets/star2.PNG"
                   />
                </div>
@@ -154,7 +154,7 @@ export default function Page() {
                      backgroundPosition: "left 50% bottom 30%",
                      backgroundSize: "120%"
                   }}
-                  className='z-10 ml-24 mt-[18rem] rounded-full w-[20vw] h-[70vh] bg-green-400'
+                  className='z-10 ml-24 mt-[18rem] rounded-full w-[20vw] 2xl:h-[70vh] xl:h-[65vh] bg-green-400'
                />
                <div
                   style={{

@@ -21,7 +21,7 @@ export default function projectIcon({ project, index, flip, setFlip }: { project
                className="flex flex-col items-center justify-center rounded-full back bg-moss text-rice w-full h-full"
             >
                <p
-                  className="m-3 italic text-center"
+                  className="m-3 xl:text-[0.85rem] italic text-center"
                >
                   {project.tools}
                </p>
@@ -29,7 +29,7 @@ export default function projectIcon({ project, index, flip, setFlip }: { project
                   className="h-[0.09rem] w-36 bg-rice"
                />
                <p
-                  className="text-s m-3 text-center"
+                  className="2xl:text-sm xl:text-[0.83rem] m-3 text-center"
                >
                   {project.description}
                </p>
